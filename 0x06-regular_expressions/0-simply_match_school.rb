@@ -1,2 +1,3 @@
 #!/usr/bin/env ruby
-puts ARGV[0].scan(/Holberton/).join
+# Ruby script that acepts one argument and pass it to a regex metching method
+puts ARGV[0].scan(/School/).join
